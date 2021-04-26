@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Skaičiuotuvas</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<h1> Skaičiuotuvas</h1>
+
+<form class="forma">
+  <label for="sarasas">Pasirinkite veiksmą:</label>
+<select name="sarasas" id="sarasas"> 
+  <option value="0">Pasirinkti</option>
+  <option value="1">Atimti</option>
+  <option value="2">Sudėti</option>
+  <option value="3">Dauginti</option>
+  <option value="4">Dalinti</option>
+</select><br>
+   <label for="num1">Pirmas skaičius</label>
+  <input type="number" id="num1" name="num1" placeholder="Įveskite skaičių"><br><br>
+   <label for="num2">Antras skaičius</label>
+  <input type="number" id="num2" name="num2" placeholder="Įveskite skaičių"><br><br>
+  <button onclick="isEmpty()" type="button">Skaičiuoti</button>
+</form>
+<p id="rez">   </p>
+    <script src="script.js"></script>
+  </body>
+</html>

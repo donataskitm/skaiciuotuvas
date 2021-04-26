@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+button{
+  margin: auto;
+  display:block;
+}
+#sarasas{
+  margin-bottom: 18px;
+}
+.forma{
+  padding: 20px;
+  text-align: center;
+  background-color: #b9c9be;
+}
+input {
+  width: 105px;
+}
+
